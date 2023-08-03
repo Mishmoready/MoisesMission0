@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Mission0</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+    .carousel-item {
+        height: 80vh;
+      }
+      .carousel-image {
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+          /* This part is for mobile view */
+      @media (max-width: 768px) {
+        .carousel-item {
+          height: 30vh;  /* Adjust this value as needed */
+        }
+      }
+        .card{
+          padding: 10px;
+        }
+        p {
+          font-size: 10px;
+        }
+
+
+
+    </style>
+  </head>
+  <body class="px-md-5" style="background-color: #f1f1f1">
+    
+<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid d-flex">
+				<a class="navbar-brand text-black" href="#">
+<a class="navbar-brand" href="#"><img src="nba-2.svg" alt="logo" width="30" height="30"></a>
+					Me BBall
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse justify-content-end"
+					id="navbarSupportedContent"
+				>
+					<div class="navbar-nav column-gap-4">
+						<a class="nav-link active text-black" aria-current="page" href="#"
+							>Home</a
+						>
+						<a class="nav-link text-black" href="#">Products</a>
+						<a class="nav-link text-black" href="#">Services</a>
+						<button class="btn btn-outline-dark" type="submit">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+        <!-- The search bar for mobile view -->
+    <div class="d-block d-md-none my-3">
+      <form class="d-flex justify-content-center" role="search">
+        <input class="form-control me-2" type="search" placeholder="Team" aria-label="Search">
+        <button class="btn btn-outline-success btn-dark" style="color: white;" type="submit">Search</button>
+      </form>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide position-relative"  data-bs-ride="carousel">
+      <div class="carousel-inner" style="border-radius: 20px; height: 50%;">
+        <div class="carousel-item active">
+          <img src="JaMorant.jpg" class="d-block w-100 h-100 h-md-50 carousel-image img-fluid"  style="opacity: 0.5;" alt="JaMorant">
+        </div>
+        <div class="carousel-item">
+          <img src="LebronJamesDunk.jpg" class="d-block w-100 h-100 h-md-50 carousel-image img-fluid"  style="opacity: 0.5;" alt="LebronJamesDunk">
+        </div>
+        <div class="carousel-item">
+          <img src="StephenCurry.jpg" class="d-block w-100 h-100 h-md-50 carousel-image img-fluid"  style="opacity: 0.5;" alt="StephenCurry">
+        </div>
+        <div class="carousel-caption d-none d-md-block position-absolute start-0  top-50 translate-start-y text-start">
+        <div class="fs-1" style="color: rgb(255, 255, 255); font-weight: 700;">Welcome to Bball</div>
+      <form class="d-flex col-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Team" aria-label="Search">
+        <button class="btn btn-outline-success btn-dark" style="color: white;" type="submit">Search</button>
+      </form>
+      </div>
+      </div>
+    </div>
+    <main class="container px-5 text-center text-black">
+      </div>
+<div class="container text-center">
+  <div class="row align-items-start" style="margin-top: 20px;">
+    <div class="col-12 col-md d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="Golden_State_Warriors_logo.svg" class="card-img-top" alt="logo">
+        <div class="card-body">
+          <h5 class="card-title">Golden State Warriors</h5>
+          <p class="card-text">The Golden State Warriors, based in San Francisco, California, are a storied NBA team, renowned for their high-scoring, three-point shooting play style, and a legacy marked by numerous championships and legendary players like Stephen Curry and Klay Thompson.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="los-angeles-lakers-1.svg" class="card-img-top" alt="logo">
+        <div class="card-body">
+          <h5 class="card-title">Los Angeles Lakers</h5>
+          <p class="card-text">The Los Angeles Lakers, based in Los Angeles, California, are one of the most successful franchises in the NBA, with a rich history of championships and a roster of legendary players such as Magic Johnson, Kobe Bryant, and LeBron James.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="memphis-grizzlies.svg" class="card-img-top" alt="logo">
+        <div class="card-body">
+          <h5 class="card-title">Memphis Grizzlies</h5>
+          <p class="card-text">The Memphis Grizzlies, based in Memphis, Tennessee, are known for their "Grit and Grind" style of basketball, establishing a reputation as a tough, hard-playing team, with players like Marc Gasol and Ja Morant contributing to their notable moments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+  </body>
+</html>
